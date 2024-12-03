@@ -1,7 +1,7 @@
 [build]
   functions = "netlify/functions"
   node_bundler = "esbuild"
-  publish = "public"
+  publish = "."
 [functions]
   external_node_modules = ["express"]
   node_bundler = "esbuild"
